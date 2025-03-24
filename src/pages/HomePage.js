@@ -64,7 +64,7 @@ export default function HomePage() {
                       Hi, It's <span className="text-cyan-400">Võ Công Nam</span>
                     </h1>
                     <h2 className="text-xl md:text-2xl">
-                      I'm a <TypeAnimation words={["Front-End Developer", "Web Developer", "UI/UX Enthusiast"]} />
+                      I'm a <TypeAnimation words={["Front-End Developer", "Web Developer", "UI/UX Developer"]} />
                     </h2>
                   </div>
 
