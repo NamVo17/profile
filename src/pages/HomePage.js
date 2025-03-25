@@ -61,7 +61,8 @@ export default function HomePage() {
                 <div className="space-y-8">
                   <div className="space-y-4">
                     <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-                      Hi, It's <span className="text-cyan-400">Võ Công Nam</span>
+                    <span className="text-2xl sm:text-3xl md:text-4xl">Hi, It's</span> 
+                    <span className="text-cyan-400"> Võ Công Nam</span>                    
                     </h1>
                     <h2 className="text-xl md:text-2xl">
                       I'm a <TypeAnimation words={["Front-End Developer", "Web Developer", "UI/UX Developer"]} />
@@ -221,15 +222,15 @@ export default function HomePage() {
                     <h3 className="text-xl font-bold">
                       Bachelor of Information Systems, Nong Lam University - Ho Chi Minh City
                     </h3>
-                    <span className="text-gray-400">Expected Graduation: August 2025</span>
                   </div>
+                  <span className="flex text-gray-200 italic mb-6">Expected Graduation: August 2025</span>
                   <div className="text-gray-400 space-y-4">
-                    <p>• Relevant coursework: Web Application Development, Database Systems.</p>
+                    <p> Relevant coursework: Web Application Development, Database Systems.</p>
                     <p>
-                      • Thesis on "Designing an E-Commerce Website for Selling Cakes and Tea with Integrated Customer
+                       Thesis on "Designing an E-Commerce Website for Selling Cakes and Tea with Integrated Customer
                       Support Chatbot and Recommendation System".
                     </p>
-                    <ul className="list-disc pl-5 space-y-2">
+                    <ul className="list-disc pl-16 space-y-4">
                       <li>Developed the Front-End using modern UI frameworks (Bootstrap, Tailwind CSS).</li>
                       <li>Implemented a PHP & MySQL back-end for product management and user authentication.</li>
                       <li>
