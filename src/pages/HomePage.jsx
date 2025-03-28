@@ -269,6 +269,13 @@ export default function HomePage() {
                 link="https://github.com/NamVo17/thuctapVi-nCNTT"
                 tags={["Python"]}
               />
+              <ProjectCard
+                title="Vietnam Travel Website"
+                description="Using python and libraries to build a toolkit for manipulating symbols on maps"
+                image="/vietnamtravel.png?height=400&width=600 " A
+                link="https://github.com/NamVo17/vietnam_travel"
+                tags={["React","Next.js","TypeScript", "TailwindCSS","MySQL"]}
+              />
             </div>
           </div>
         </section>
