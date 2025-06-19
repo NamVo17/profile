@@ -40,8 +40,8 @@ export default function HomePage() {
             className="ml-auto"
             onClick={() => {
               const link = document.createElement("a");
-              link.href = "/VoCongNam_Frontend_Intern_CV.pdf";
-              link.setAttribute("download", "VoCongNam_Frontend_Intern_CV.pdf");
+              link.href = "/VoCongNam_Frontend_CV.pdf";
+              link.setAttribute("download", "VoCongNam_Frontend_CV.pdf");
               document.body.appendChild(link);
               link.click();
               document.body.removeChild(link);
@@ -271,10 +271,10 @@ export default function HomePage() {
               />
               <ProjectCard
                 title="Vietnam Travel Website"
-                description="Using python and libraries to build a toolkit for manipulating symbols on maps"
+                description="A Next.js-based travel website with interactive tour booking and dynamic content management"
                 image="/vietnamtravel.png?height=400&width=600 " A
                 link="https://github.com/NamVo17/vietnam_travel"
-                tags={["React","Next.js","TypeScript", "TailwindCSS","MySQL"]}
+                tags={["React","TypeScript", "TailwindCSS","MySQL"]}
               />
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function HomePage() {
 
       <footer className="border-t border-gray-800">
         <div className="container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6">
-          <p className="text-xs text-gray-500">© 2024 Nam Võ. All rights reserved.</p>
+          <p className="text-xs text-gray-500">© 2025 Nam Võ. All rights reserved.</p>
           <nav className="sm:ml-auto flex gap-4 sm:gap-6">
             <a className="text-xs hover:text-cyan-400 transition-colors" href="#">
               Terms of Service
