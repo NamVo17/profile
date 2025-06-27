@@ -276,13 +276,7 @@ export default function HomePage() {
                 link="https://github.com/NamVo17/vietnam_travel"
                 tags={["React","TypeScript", "TailwindCSS","MySQL"]}
               />
-              <ProjectCard
-                title="Calendar-App"
-                description="A Next.js-based travel website with interactive tour booking and dynamic content management"
-                image="/calendar.png?height=400&width=600 " A
-                link="https://github.com/NamVo17/vietnam_travel"
-                tags={["React","TypeScript", "TailwindCSS","MySQL"]}
-              />
+              
               <ProjectCard
                 title="Calendar-App"
                 description="A modern calendar web app with event management and responsive design."
